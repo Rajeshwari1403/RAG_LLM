@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+pypdf
+pymupdf
+
+uv init
+uv venu (or) & "C:\Users\rajes\.local\bin\uv.exe" venv (and) ".\.venv\Scripts\Activate.ps1"
+
+TO INSTALL PACAKGES:
+& "C:\Users\rajes\.local\bin\uv.exe" pip install langchain langchain-core langchain-community
+& "C:\Users\rajes\.local\bin\uv.exe" pip install pypdf pymupdf
+& "C:\Users\rajes\.local\bin\uv.exe" pip install ipykernel  # FOr jupyter notebook
+uv pip install langchain-text-splitters
+
+For Embedding and VectorDB the below command,
+uv pip install sentence-transformers faiss-cpu chromadb
